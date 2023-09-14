@@ -1,0 +1,10 @@
+
+A列の値: vlan 10
+B列の値: name VLAN_10
+
+A列の値: vlan 11
+B列の値: name VLAN_11
+
+A列の値: vlan 12
+B列の値: name VLAN_12
+

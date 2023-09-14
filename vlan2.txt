@@ -1,0 +1,4 @@
+{% for row in csv %}
+A列の値: vlan {{row["vlan_id"]}}
+B列の値: name {{row["vlan_name"]}}
+{% endfor %}
