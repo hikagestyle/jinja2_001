@@ -1,4 +1,5 @@
 ## csvを読み込んでテンプレートに差し込む
+
 - VLAN.csv（csvデータ）
 - vlan2.txt（テンプレート、forループ）
 
@@ -6,22 +7,29 @@
 
 
 ## pipからjinja2パッケージをインストール
+
+すでにインストールしている場合は不要
+
 pip3 install jinja2
 
 
 ## pythonプログラムを実行
+
 python3 test_.py
 
 
 ## 参考にしたページ
+
 https://stackoverflow.com/questions/66333367/for-loop-inside-jinja2-template-with-csv
 
 
 ## pythonプログラムを実行して output-2.txt にファイル出力
+
 python3 test_.py > output-2.txt
 
 
 ## ファイルの書き出し
+
 ```
 with open('sample.txt', 'w') as f:
     f.write(vlan_config)
