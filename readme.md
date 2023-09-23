@@ -22,7 +22,7 @@ python3 test_.py > output-2.txt
 
 
 ## ファイルの書き出し
-with open('sample.txt', 'w') as f:
+with open('sample.txt', 'w') as f:  
     f.write(vlan_config)
 
 
